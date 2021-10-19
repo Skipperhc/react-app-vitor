@@ -1,12 +1,10 @@
 import React from 'react';
-import './App.css';
 
-import Route from './pages'
+import Router from './pages'
 
 function App() {
-
   return (
-    <Route />
+    <Router />
   );
 }
 
