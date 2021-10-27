@@ -19,9 +19,11 @@ const NavBar = () => {
             {
                 links.map((link) => {
                     return (
-                        <Link key={link.nome} to={link.link}>
-                            {link.nome}
-                        </Link>
+                        <div className="navItem">
+                            <Link key={link.nome} to={link.link}>
+                                abrir {link.nome}
+                            </Link>
+                        </div>
                     );
                 })
             }
